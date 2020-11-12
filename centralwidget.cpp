@@ -2,10 +2,10 @@
 
 CentralWidget::CentralWidget(QWidget *parent) : QWidget(parent)
 {
-	turkis = new AufgabenWidget(this);
-	orange = new AufgabenWidget(this);
-	lila = new AufgabenWidget(this);
-	grun = new AufgabenWidget(this);
+	turkis = new DummyAufgabenWidget(this);
+	orange = new DummyAufgabenWidget(this);
+	lila = new DummyAufgabenWidget(this);
+	grun = new DummyAufgabenWidget(this);
 	lay->addWidget(turkis,0,0);
 	lay->addWidget(orange,0,1);
 	lay->addWidget(grun,1,0);

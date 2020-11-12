@@ -4,6 +4,7 @@
 #include <QWidget>
 #include <QGridLayout>
 #include "aufgabenwidget.h"
+#include "dummyaufgabenwidget.h"
 
 class CentralWidget : public QWidget
 {

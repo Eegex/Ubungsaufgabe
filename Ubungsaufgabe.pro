@@ -11,12 +11,14 @@ CONFIG += c++11
 SOURCES += \
     aufgabenwidget.cpp \
     centralwidget.cpp \
+    dummyaufgabenwidget.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     aufgabenwidget.h \
     centralwidget.h \
+    dummyaufgabenwidget.h \
     mainwindow.h
 
 # Default rules for deployment.

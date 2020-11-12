@@ -13,10 +13,10 @@ public:
 
 private:
 	QGridLayout * lay = new QGridLayout(this);
-	AufgabenWidget * A = nullptr;
-	AufgabenWidget * B = nullptr;
-	AufgabenWidget * C = nullptr;
-	AufgabenWidget * D = nullptr;
+	AufgabenWidget * turkis = nullptr;
+	AufgabenWidget * orange = nullptr;
+	AufgabenWidget * lila = nullptr;
+	AufgabenWidget * grun = nullptr;
 signals:
 
 };

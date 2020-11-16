@@ -6,6 +6,7 @@
 #include "aufgabenwidget.h"
 #include "dummyaufgabenwidget.h"
 #include "kind1.h"
+#include "kind.h"
 
 class CentralWidget : public QWidget
 {

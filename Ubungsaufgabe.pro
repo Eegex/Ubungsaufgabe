@@ -13,6 +13,7 @@ SOURCES += \
     centralwidget.cpp \
     dummyaufgabenwidget.cpp \
     kind1.cpp \
+    kind.cpp \
     main.cpp \
     mainwindow.cpp
 
@@ -21,6 +22,7 @@ HEADERS += \
     centralwidget.h \
     dummyaufgabenwidget.h \
     kind1.h \
+    kind.h \
     mainwindow.h
 
 # Default rules for deployment.

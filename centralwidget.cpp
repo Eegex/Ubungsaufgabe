@@ -6,7 +6,7 @@ CentralWidget::CentralWidget(QWidget *parent) : QWidget(parent)
     turkis = new Kind1(this);
 	orange = new DummyAufgabenWidget(this);
 	lila = new DummyAufgabenWidget(this);
-	grun = new DummyAufgabenWidget(this);
+    grun = new kind(this);
 	lay->addWidget(turkis,0,0);
 	lay->addWidget(orange,0,1);
 	lay->addWidget(grun,1,0);

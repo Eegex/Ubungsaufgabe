@@ -1,10 +1,12 @@
 #include "centralwidget.h"
+#include "kind3.h"
 
 CentralWidget::CentralWidget(QWidget *parent) : QWidget(parent)
 {
 	turkis = new DummyAufgabenWidget(this);
 	orange = new DummyAufgabenWidget(this);
-	lila = new DummyAufgabenWidget(this);
+    lila = new kind3(this);
+    //lila = new DummyAufgabenWidget(this);
 	grun = new DummyAufgabenWidget(this);
 	lay->addWidget(turkis,0,0);
 	lay->addWidget(orange,0,1);

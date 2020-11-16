@@ -12,6 +12,8 @@ SOURCES += \
     aufgabenwidget.cpp \
     centralwidget.cpp \
     dummyaufgabenwidget.cpp \
+    kind1.cpp \
+    kind.cpp \
     kind3.cpp \
     main.cpp \
     mainwindow.cpp
@@ -20,6 +22,8 @@ HEADERS += \
     aufgabenwidget.h \
     centralwidget.h \
     dummyaufgabenwidget.h \
+    kind1.h \
+    kind.h \
     kind3.h \
     mainwindow.h
 

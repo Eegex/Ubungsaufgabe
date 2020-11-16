@@ -4,6 +4,7 @@
 #include <QRegularExpression>
 #include <QRegularExpressionMatch>
 
+//ein kommentar
 kind3::kind3(QWidget * parent) : AufgabenWidget(parent)
 {
 	setLayout(lay);

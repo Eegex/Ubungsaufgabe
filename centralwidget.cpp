@@ -1,8 +1,9 @@
 #include "centralwidget.h"
 
+
 CentralWidget::CentralWidget(QWidget *parent) : QWidget(parent)
 {
-	turkis = new DummyAufgabenWidget(this);
+    turkis = new Kind1(this);
 	orange = new DummyAufgabenWidget(this);
 	lila = new DummyAufgabenWidget(this);
 	grun = new DummyAufgabenWidget(this);

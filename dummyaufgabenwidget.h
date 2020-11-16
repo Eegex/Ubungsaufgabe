@@ -14,7 +14,7 @@ public:
 
 private:
 	QVBoxLayout * lay = new QVBoxLayout;
-	QLabel * lDisplay = new QLabel("Nichts zu sehen",this);
+    QLabel * lDisplay = new QLabel("Nichts zu sehen",this);
 	QPushButton * pbSend = new QPushButton("Senden",this);
 
 public slots:

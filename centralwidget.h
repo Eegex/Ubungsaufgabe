@@ -5,6 +5,7 @@
 #include <QGridLayout>
 #include "aufgabenwidget.h"
 #include "dummyaufgabenwidget.h"
+#include "kind1.h"
 
 class CentralWidget : public QWidget
 {

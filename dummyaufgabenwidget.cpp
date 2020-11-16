@@ -5,7 +5,7 @@ DummyAufgabenWidget::DummyAufgabenWidget(QWidget * parent) : AufgabenWidget(pare
 	setLayout(lay);
 	lay->addWidget(lDisplay);
 	lay->addWidget(pbSend);
-	connect(pbSend,&QPushButton::clicked,this,[&](){ emit valueChanged(QVariant("Platzhalter")); });
+    connect(pbSend,&QPushButton::clicked,this,[&](){ emit valueChanged(QVariant("Platzhalter")); });
 }
 
 void DummyAufgabenWidget::changeValue(QVariant v)

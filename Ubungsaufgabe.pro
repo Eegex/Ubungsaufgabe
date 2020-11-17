@@ -11,7 +11,6 @@ CONFIG += c++11
 SOURCES += \
     aufgabenwidget.cpp \
     centralwidget.cpp \
-    dummyaufgabenwidget.cpp \
     kind1.cpp \
     kind.cpp \
     kind2.cpp \
@@ -22,7 +21,6 @@ SOURCES += \
 HEADERS += \
     aufgabenwidget.h \
     centralwidget.h \
-    dummyaufgabenwidget.h \
     kind1.h \
     kind.h \
     kind2.h \

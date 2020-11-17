@@ -1,12 +1,10 @@
 #include "centralwidget.h"
-#include "kind3.h"
-#include "kind2.h"
 
 
 CentralWidget::CentralWidget(QWidget *parent) : QWidget(parent)
 {
-    turkis = new Kind1(this);
-    orange = new Kind2(this);
+	turkis = new Kind1(this);
+	orange = new Kind2(this);
 	lila = new kind3(this);
 	grun = new kind(this);
 	lay->addWidget(turkis,0,0);
